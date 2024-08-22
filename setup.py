@@ -12,6 +12,7 @@ def get_requirements(file_path:str)->List[str]:
             requirement.remove(hyphen_dot)
     return requirement
  
+
 setup(
     name='mlproject',
     version='0.0.1',
